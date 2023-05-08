@@ -1,0 +1,21 @@
+﻿<Page
+    x:Class="Calculator.Menu"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Calculator"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+		<StackPanel Margin="15" Orientation="Vertical">
+			<TextBlock x:Name="menuTitle" Text="MAIN MENU NEW" HorizontalAlignment="Center" FontSize="30" Padding="20"/>
+			<Button HorizontalAlignment="Center" Padding="20" Margin="40" x:Name="calculatorButtonButton" Content="CALCULATOR" FontSize="30" Click="calculatorButtonButton_Click"/>
+			<Button HorizontalAlignment="Center" Padding="20" Margin="40" x:Name="mortgageCalcButton" Content="MORTGAGE CALCULATOR" FontSize="30" Click="mortgageCalcButton_Click"/>
+			<Button HorizontalAlignment="Center" Padding="20" Margin="40" x:Name="currencyCalcButton" Content="CURRENCY CLACULATOR" FontSize="30" Click="currencyCalcButton_Click"/>
+			<Button HorizontalAlignment="Center" Padding="20" Margin="40" x:Name="tripCalculator" Content="Trip Calculator" FontSize="30" Click="tripCalculator_Click"/>
+			<Button HorizontalAlignment="Center" Padding="20" Margin="40" x:Name="exitButton" Content="EXIT" FontSize="30" Click="exitButton_Click"/>
+		</StackPanel>
+    </Grid>
+</Page>
