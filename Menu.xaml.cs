@@ -17,14 +17,33 @@ using Windows.UI.Xaml.Navigation;
 
 namespace Calculator
 {
-	/// <summary>
-	/// An empty page that can be used on its own or navigated to within a Frame.
-	/// </summary>
-	public sealed partial class Menu : Page
-	{
-		public Menu()
+    /// <summary>
+    /// An empty page that can be used on its own or navigated to within a Frame.
+    /// </summary>
+    public sealed partial class Menu : Page
+    {
+        public Menu()
+        {
+            this.InitializeComponent();
+        }
+		private void calculatorButtonButton_Click(object sender, RoutedEventArgs e)
 		{
-			this.InitializeComponent();
+			this.Frame.Navigate(typeof(MainPage));
+		}
+
+		//private void mortgageCalcButton_Click(object sender, RoutedEventArgs e)
+		//{
+		//	this.Frame.Navigate(typeof(MortgageCalculator));
+		//}
+
+		//private void currencyCalcButton_Click(object sender, RoutedEventArgs e)
+		//{
+		//	this.Frame.Navigate(typeof(CurrencyCalculator));
+		//}
+
+		private void exitButton_Click(object sender, RoutedEventArgs e)
+		{
+			Application.Current.Exit();
 		}
 	}
 }
