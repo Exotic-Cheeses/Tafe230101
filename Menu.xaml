@@ -9,13 +9,14 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-		<StackPanel Margin="15" Orientation="Vertical">
-			<TextBlock x:Name="menuTitle" Text="MAIN MENU NEW" HorizontalAlignment="Center" FontSize="30" Padding="20"/>
+        <StackPanel Margin="15" Orientation="Vertical">
+			<TextBlock x:Name="menuTitle" Text="MAIN MENU" HorizontalAlignment="Center" FontSize="30" Padding="20"/>
 			<Button HorizontalAlignment="Center" Padding="20" Margin="40" x:Name="calculatorButtonButton" Content="CALCULATOR" FontSize="30" Click="calculatorButtonButton_Click"/>
 			<Button HorizontalAlignment="Center" Padding="20" Margin="40" x:Name="mortgageCalcButton" Content="MORTGAGE CALCULATOR" FontSize="30" Click="mortgageCalcButton_Click"/>
-			<Button HorizontalAlignment="Center" Padding="20" Margin="40" x:Name="currencyCalcButton" Content="CURRENCY CLACULATOR" FontSize="30" Click="currencyCalcButton_Click"/>
-			<Button HorizontalAlignment="Center" Padding="20" Margin="40" x:Name="tripCalculator" Content="Trip Calculator" FontSize="30" Click="tripCalculator_Click"/>
+			<Button HorizontalAlignment="Center" Padding="20" Margin="40" x:Name="currencyCalcButton" Content="CURRENCY CLACULATOR" FontSize="30" />
+			<Button HorizontalAlignment="Center" Padding="20" Margin="40" x:Name="tripCalculator" Content="Trip Calculator" FontSize="30" />
 			<Button HorizontalAlignment="Center" Padding="20" Margin="40" x:Name="exitButton" Content="EXIT" FontSize="30" Click="exitButton_Click"/>
 		</StackPanel>
+
     </Grid>
 </Page>
