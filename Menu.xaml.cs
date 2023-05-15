@@ -37,8 +37,13 @@ namespace Calculator
 		private void mortgageCalcButton_Click(object sender, RoutedEventArgs e)
 		{
 			this.Frame.Navigate(typeof(MortgageCalculator));
-
 		}
+		
+		private void tripCalculator_Click(object sender, RoutedEventArgs e)
+		{
+			tripCalculatorMsg.Text = "Trip calculator C# code will be developed later";
+		}
+		
 		private void exitButton_Click(object sender, RoutedEventArgs e)
 		{
 			Application.Current.Exit();
