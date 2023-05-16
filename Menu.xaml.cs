@@ -48,5 +48,7 @@ namespace Calculator
 		{
 			Application.Current.Exit();
 		}
+		
+		
 	}
 }

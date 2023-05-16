@@ -14,8 +14,8 @@
 			<Button HorizontalAlignment="Center" Padding="20" Margin="40" x:Name="calculatorButtonButton" Content="CALCULATOR" FontSize="30" Click="calculatorButtonButton_Click"/>
 			<Button HorizontalAlignment="Center" Padding="20" Margin="40" x:Name="mortgageCalcButton" Content="MORTGAGE CALCULATOR" FontSize="30" Click="mortgageCalcButton_Click"/>
 			<Button HorizontalAlignment="Center" Padding="20" Margin="40" x:Name="currencyCalcButton" Content="CURRENCY CLACULATOR" FontSize="30" Click="currencyCalcButton_Click"/>
-			<Button HorizontalAlignment="Center" Padding="20" Margin="40" x:Name="tripCalculator" Content="Trip Calculator" FontSize="30" FontWeight="Bold" Background="#33002EA0" Click="tripCalculator_Click" />
-            		<TextBlock x:Name="tripCalculatorMsg" TextWrapping="Wrap" Text="" HorizontalAlignment="Center" FontSize="24"/>			
+			<Button HorizontalAlignment="Center" Padding="20" Margin="40" x:Name="tripCalculator" Content="Trip Calculator" FontSize="32" FontWeight="Bold" Background="#33002EA0" Click="tripCalculator_Click" />
+      <TextBlock x:Name="tripCalculatorMsg" TextWrapping="Wrap" Text="" HorizontalAlignment="Center" FontSize="26"/>
 			<Button HorizontalAlignment="Center" Padding="20" Margin="40" x:Name="exitButton" Content="EXIT" FontSize="30" Click="exitButton_Click"/>
 		</StackPanel>
     </Grid>
