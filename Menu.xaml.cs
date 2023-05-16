@@ -41,7 +41,7 @@ namespace Calculator
 		
 		private void tripCalculator_Click(object sender, RoutedEventArgs e)
 		{
-			tripCalculatorMsg.Text = "Trip calculator C# code will be developed later...";
+			tripCalculatorMsg.Text = "Trip calculator C# code will be developed later";
 		}
 		
 		private void exitButton_Click(object sender, RoutedEventArgs e)
